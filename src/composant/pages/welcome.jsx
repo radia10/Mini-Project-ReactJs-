@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Card from './card.jsx';
-import Button from './Button.jsx';
+import Card from '../molecules/card.jsx';
+import Button from '../atomes/Button.jsx';
 
 function Welcome({text}) {
   return (

@@ -6,7 +6,7 @@ import React from 'react';
 function Card({children}) {
   return (
     
-    <button className="Card">{children}</button>
+    <div className="Card">{children}</div>
 
     
   );

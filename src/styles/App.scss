@@ -1,11 +1,11 @@
 
-$primarycolor : rgb(182, 139, 83) ;
-
- 
- 
- @import "Card";
- @import "Login";
- @import "Welcome";
- @import  "Button";
+//importing variables
+ @import 'variables/spacing.scss';
+ @import 'variables/colors.scss' ;
+ //importing component
+ @import "molecules/Card.scss";
+ @import "pages/Login.scss";
+ @import "pages/Welcome.scss";
+ @import  "atomes/Button.scss";
 
  
