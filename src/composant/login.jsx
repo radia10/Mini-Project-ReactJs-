@@ -6,7 +6,7 @@ import Button from './Button.jsx';
 function Login() {
   return (
      <div className='Login'>
-<h3>voulez vous vous connecter </h3>
+<h3 className='Login__header'>voulez vous vous connecter </h3>
 <Card>
     
     <Button text="oui" />
